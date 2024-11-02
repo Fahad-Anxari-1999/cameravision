@@ -56,11 +56,11 @@ nbclient==0.10.0
 nbconvert==7.16.4
 nbformat==5.10.4
 networkx==3.4.2
-numpy==1.20.3
-opencv-python==4.10.0.74
-opencv-python-headless==4.10.0.74
+numpy==2.1.2
+opencv-python==4.10.0.84
+opencv-python-headless==4.10.0.84
 packaging==24.1
-pandas==1.2.5
+pandas==2.2.3
 pandocfilters==1.5.1
 parso==0.8.4
 pickleshare==0.7.5
@@ -79,7 +79,7 @@ Pygments==2.18.0
 pyparsing==3.2.0
 python-dateutil==2.9.0.post0
 pytz==2024.2
-pywin32-ctypes==0.2.3
+pywin32-ctypes==0.2.3  # Remove if deploying on non-Windows
 PyYAML==6.0.2
 pyzmq==26.2.0
 referencing==0.35.1
