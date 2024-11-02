@@ -1,4 +1,7 @@
-﻿altair==5.4.1
+git add requirements.txt
+git commit -m "Downgrade pandas to 1.2.5"
+git push
+altair==5.4.1
 asttokens==2.4.1
 attrs==24.2.0
 awscli==1.35.17
